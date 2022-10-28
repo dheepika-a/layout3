@@ -1,0 +1,200 @@
+.header .wrapper
+{
+width:70%;
+    margin:auto; 	
+}
+.logo .wrapper
+{
+	width:70%;
+    margin:auto; 
+}
+.portfolioa .wrapper
+{
+	width:70%;
+    margin:auto; 
+}
+.portfoliob .wrapper
+{
+	width:70%;
+    margin:auto; 
+}
+.portfolioc .wrapper
+{
+	width:70%;
+    margin:auto; 
+}
+.website .wrapper
+{
+	width:70%;
+    margin:auto; 
+}
+
+
+.header
+{
+	 background-color:rgb(75,25,8);
+	 height:69px;
+	 width:1518px;
+	 
+	 
+}
+.header .header-fc
+{ 
+	display:flex;
+	justify-content:space-between;
+}
+.header .header-fc .header-logo
+{
+	background-color:white;
+	width:191px;
+	height:61px;
+	margin-top:5px;
+}
+.header .header-fc .header-navi
+{
+	background-color:white;
+	width:191px;
+	height:61px;
+	margin-top:5px;
+	
+}
+
+.logo
+{
+	background-color:rgb(241,28,96);
+	height:541px;
+	width:1518px;
+}
+
+.logo .logo-fc
+{
+	display:flex;
+	flex-direction:coloum;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+.logo .logo-fc .logotext
+{
+
+	height:216px;
+	width:100%;
+	text-align:center;
+	margin-top:50px;
+}
+.logo .logo-fc .logoclick
+{
+	background-color:gray;
+	height:79px;
+	width:221px;
+	
+}
+
+.portfolioa
+{
+	background-color:white;
+	height:541px;
+	width:1518px;
+}
+
+.portfolioa .portfolioa-fc
+{
+	display:flex;
+	flex direction:row;
+	justify-content: space-between;
+}
+.portfolioa .portfolioa-fc .texta
+{
+	width:503px;
+	margin-top:20px;
+	
+	
+   
+}
+.portfolioa .portfolioa-fc .boxa
+{
+		background-color:pink;
+		height:510px;
+		width:535px;
+		margin-top:20px;
+}
+
+
+.portfoliob
+{
+	background-color:white;
+	height:541px;
+	width:1518px;
+}
+
+.portfoliob .portfoliob-fc
+{
+	display:flex;
+	flex direction:row;
+	
+	
+}
+
+
+.portfoliob .portfoliob-fc .boxb
+{
+		background-color:pink;
+		height:510px;
+		width:535px;
+		margin-top:20px;
+		
+}
+
+.portfoliob .portfoliob-fc .textb
+{
+	
+	width:503px;
+	margin-top:20px;
+
+	
+}
+
+.portfolioc
+{
+	background-color:white;
+	height:541px;
+	width:1518px;
+}
+
+.portfolioc .portfolioc-fc
+{
+	display:flex;
+	flex direction:row;
+	justify-content: space-between;
+}
+.portfolioc .portfolioc-fc .textc
+{
+	width:503px;
+	margin-top:20px;
+	
+	
+   
+}
+.portfolioc .portfolioc-fc .boxc
+{
+		background-color:pink;
+		height:510px;
+		width:535px;
+		margin-top:20px;
+}
+.website
+{
+	background-color :black;
+	
+}
+.website .website-fc
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.website .website-fc .copyright
+{
+	background-color:pink;
+	width:206px;
+	height:35px;
+}
